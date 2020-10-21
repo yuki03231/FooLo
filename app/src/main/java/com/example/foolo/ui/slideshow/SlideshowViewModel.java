@@ -10,7 +10,7 @@ public class SlideshowViewModel extends ViewModel {
 
     public SlideshowViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("スタンプ引き換え画面");
+        mText.setValue("");
     }
 
     public LiveData<String> getText() {
