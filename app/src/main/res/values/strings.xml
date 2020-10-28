@@ -8,6 +8,20 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">マイページ</string>
+    <string name="home_0">HOME</string>
+    <string name="home_1">会員情報</string>
+    <string name="home_1_2">Name : </string>
+    <string name="home_2">スタンプ数</string>
+    <string name="home_2_2">Total : </string>
+    <string name="home_3">My Rank</string>
+    <string name="home_3_2">Rank : </string>
+    <string name="home_4">Ranking</string>
+    <string name="home_4_2">Ranking : </string>
+    <string name="home_5">紹介数</string>
+    <string name="home_5_2">Total : </string>
+    <string name="home_6">会員番号</string>
+    <string name="home_6_2">Number : </string>
+
     <string name="menu_gallery">値引き商品一覧</string>
     <string name="menu_slideshow">スタンプ引き換え画面</string>
 </resources>

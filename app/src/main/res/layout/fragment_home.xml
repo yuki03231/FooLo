@@ -12,117 +12,234 @@
         android:layout_height="match_parent"
         android:isScrollContainer="false"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="345dp">
+        tools:layout_editor_absoluteY="345dp"
+        android:background="#d9e4dd">
 
         <LinearLayout
             android:id="@+id/LinearLayout"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/text_home"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="390dp"
+                android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:textAlignment="center"
-                android:textSize="20sp"
+                android:text="@string/home_0"
+                android:layout_gravity="center_horizontal"
+                android:textSize="30sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="158dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginBottom="64dp"
-                android:text="会員情報"
-                android:textColor="#060607"
-                android:textSize="30sp"
-                app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            <FrameLayout
 
-            <TextView
-                android:id="@+id/textView13"
+                android:background="#fbf7f0"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginBottom="64dp"
-                android:text="累計スタンプ数"
-                android:textColor="#060607"
-                android:textSize="30sp"
-                app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginBottom="64dp"
-                android:text="マイランク"
-                android:textColor="#060607"
-                android:textSize="30sp"
-                app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="64dp"
+                    android:text="@string/home_1"
+                    android:textColor="#555555"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginBottom="64dp"
-                android:text="スタンプ数ランキング"
-                android:textColor="#060607"
-                android:textSize="30sp"
-                app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/home_1_2"
+                    android:background="#cdc9c3"
+                    android:textSize="30sp"
+                    android:textColor="#212922"/>
+            </FrameLayout>
 
-            <TextView
-                android:id="@+id/textView16"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginBottom="64dp"
-                android:text="紹介した友達の情報"
-                android:textColor="#060607"
-                android:textSize="30sp"
-                app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_height="match_parent"
+                android:background="#fbf7f0">
 
-            <TextView
-                android:id="@+id/textView17"
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#cdc9c3"
+                    android:text="@string/home_6_2"
+                    android:textColor="#212922"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="64dp"
+                    android:text="@string/home_6"
+                    android:textColor="#555555"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:background="#fbf7f0"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginBottom="64dp"
-                android:text="紹介した友達のスタンプ数"
-                android:textColor="#060607"
-                android:textSize="30sp"
-                app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/home_2_2"
+                    android:background="#cdc9c3"
+                    android:textColor="#212922"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="64dp"
+                    android:text="@string/home_2"
+                    android:textColor="#555555"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:background="#fbf7f0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/home_3_2"
+                    android:background="#cdc9c3"
+                    android:textColor="#212922"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="64dp"
+                    android:text="@string/home_3"
+                    android:textColor="#555555"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:background="#fbf7f0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/home_4_2"
+                    android:background="#cdc9c3"
+                    android:textColor="#212922"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="64dp"
+                    android:text="@string/home_4"
+                    android:textColor="#555555"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:background="#fbf7f0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/home_5_2"
+                    android:background="#cdc9c3"
+                    android:textColor="#212922"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="64dp"
+                    android:text="@string/home_5"
+                    android:textColor="#555555"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </FrameLayout>
 
         </LinearLayout>
     </ScrollView>
