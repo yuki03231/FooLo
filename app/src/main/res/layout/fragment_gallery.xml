@@ -76,7 +76,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="40dp"
-                android:text="鮭おにぎり"
+                android:text="鮭おにぎり　　〇〇円"
                 android:textColor="#0E0E10"
                 android:textSize="30sp"
                 app:layout_constraintBottom_toTopOf="@+id/imageView5"
@@ -93,6 +93,12 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bento" />
+
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
@@ -100,18 +106,12 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="40dp"
-                android:text="幕内弁当"
+                android:text="幕内弁当　　〇〇円"
                 android:textColor="#0E0E10"
                 android:textSize="30sp"
                 app:layout_constraintBottom_toTopOf="@+id/imageView5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/bento" />
 
             <Button
                 android:id="@+id/button7"
@@ -119,6 +119,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="50dp"
                 android:text="クーポン表示" />
+
 
         </LinearLayout>
     </ScrollView>
