@@ -54,14 +54,16 @@
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
                 android:text="コードをコピー"
-                android:textColor="#151515" />
+                android:textColor="#151515"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="wrap_content"
+                android:layout_width="410dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="50dp"
+                android:layout_margin="0dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginBottom="40dp"
                 android:background="#00BCD4"
@@ -101,7 +103,7 @@
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="150dp"
+                android:layout_marginBottom="100dp"
                 android:text="引換" />
 
             <TextView
@@ -128,8 +130,8 @@
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="150dp"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
                 android:text="引換" />
 
             <TextView
@@ -156,7 +158,7 @@
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="150dp"
+                android:layout_marginBottom="100dp"
                 android:text="引換" />
 
         </LinearLayout>
