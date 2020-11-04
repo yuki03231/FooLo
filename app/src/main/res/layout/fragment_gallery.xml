@@ -100,6 +100,21 @@
                 android:src="@drawable/bento" />
 
             <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="○○コンビニ　　池袋店"
+                android:textColor="#EEEEEE"
+                android:textSize="25sp"
+                android:background="#770000" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bento" />
+
+            <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
