@@ -144,7 +144,7 @@
                 android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="期限 11/07 23:59　まで"
+                android:text="期限 11/07 23:59　まで  stamp1"
                 android:textColor="#FF0000"
                 android:background="#FFFFFF"
                 android:textSize="20sp" />
@@ -247,7 +247,7 @@
                 android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="期限 11/07 23:59　まで"
+                android:text="期限 11/07 23:59　まで  stamp1"
                 android:textColor="#FF0000"
                 android:background="#FFFFFF"
                 android:textSize="20sp" />
@@ -297,7 +297,7 @@
                 android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="期限 11/07 23:59　まで"
+                android:text="期限 11/07 23:59　まで  stamp1"
                 android:textColor="#FF0000"
                 android:background="#FFFFFF"
                 android:textSize="20sp" />
