@@ -129,7 +129,7 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
-                android:text="お好み幕の内　　464円→300円"
+                android:text="お好み幕の内　　464円→250円"
                 android:textColor="#0E0E10"
                 android:textSize="25sp"
                 android:background="#FFFFFF"
