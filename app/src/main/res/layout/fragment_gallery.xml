@@ -93,11 +93,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/bento" />
+
 
             <TextView
                 android:id="@+id/textView23"
