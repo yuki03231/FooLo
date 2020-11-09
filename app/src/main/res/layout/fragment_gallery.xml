@@ -58,10 +58,11 @@
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#770000"
                 android:text="○○コンビニ　　板橋店"
                 android:textColor="#EEEEEE"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:background="#770000"
+                />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -70,294 +71,256 @@
                 android:src="@drawable/shake" />
 
             <TextView
-                android:id="@+id/textView26"
+                android:id="@+id/textView10"
                 android:layout_width="411dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="0dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
-                android:background="#FFFFFF"
                 android:text="鮭おにぎり　　140円→100円"
                 android:textColor="#0E0E10"
                 android:textSize="25sp"
+                android:background="#FFFFFF"
                 app:layout_constraintBottom_toTopOf="@+id/imageView5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView27"
+                android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FFFFFF"
                 android:text="期限 11/07 23:59まで　スタンプ１つ付与"
                 android:textColor="#FF0000"
+                android:background="#FFFFFF"
                 android:textSize="20sp"
 
                 />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
                 android:text="バーコード表示"
                 android:textColor="#3F51B5"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
 
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="50dp"
-                android:text="Uber Eats　配達"
-                android:textColor="#3F51B5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView28"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#770000"
-                android:text="○○コンビニ　　池袋店"
-                android:textColor="#EEEEEE"
-                android:textSize="25sp" />
-
-            <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="430dp"
-                android:layout_height="305dp"
-                android:src="@drawable/tuna" />
-
-            <TextView
-                android:id="@+id/textView30"
-                android:layout_width="411dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:background="#FFFFFF"
-                android:text="ツナマヨおにぎり　　107円→60円"
-                android:textColor="#0E0E10"
-                android:textSize="25sp"
-                app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView31"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#FFFFFF"
-                android:text="期限 11/07 23:59まで　スタンプ１つ付与"
-                android:textColor="#FF0000"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/button11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="バーコード表示"
-                android:textColor="#3F51B5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="50dp"
-                android:text="Uber Eats　配達"
-                android:textColor="#3F51B5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
 
 
-            <TextView
-                android:id="@+id/textView33"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#770000"
-                android:text="○○コンビニ　　池袋店"
-                android:textColor="#EEEEEE"
-                android:textSize="25sp" />
-
-            <ImageView
-                android:id="@+id/imageView64"
-                android:layout_width="424dp"
-                android:layout_height="323dp"
-                android:src="@drawable/bento" />
-
-            <TextView
-                android:id="@+id/textView34"
-                android:layout_width="411dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:background="#FFFFFF"
-                android:text="お好み幕の内　　  464円→250円"
-                android:textColor="#0E0E10"
-                android:textSize="25sp"
-                app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView44"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#FFFFFF"
-                android:text="期限 11/07 23:59まで　スタンプ１つ付与"
-                android:textColor="#FF0000"
-                android:textSize="20sp"
-
-                />
-
-            <Button
-                android:id="@+id/button13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="バーコード表示"
-                android:textColor="#3F51B5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/button14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="50dp"
-                android:text="Uber Eats　配達"
-                android:textColor="#3F51B5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView35"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#770000"
-                android:text="○○コンビニ　　東池袋店"
-                android:textColor="#EEEEEE"
-                android:textSize="25sp" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="match_parent"
-                android:layout_height="222dp"
-                android:src="@drawable/karubo" />
-
-            <TextView
-                android:id="@+id/textView36"
-                android:layout_width="411dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:background="#FFFFFF"
-                android:text="カルボ風ドリア    453円→250円"
-                android:textColor="#0E0E10"
-                android:textSize="25sp"
-                app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView37"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#FFFFFF"
-                android:text="期限 11/07 23:59まで　スタンプ１つ付与"
-                android:textColor="#FF0000"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/button15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="バーコード表示"
-                android:textColor="#3F51B5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/button16"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="50dp"
-                android:text="Uber Eats　配達"
-                android:textColor="#3F51B5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView38"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#770000"
-                android:text="○○コンビニ　　十条店"
-                android:textColor="#EEEEEE"
-                android:textSize="25sp" />
-
-            <ImageView
-                android:id="@+id/imageView15"
-                android:layout_width="match_parent"
-                android:layout_height="318dp"
-                android:src="@drawable/hanbagu" />
-
-            <TextView
-                android:id="@+id/textView41"
-                android:layout_width="411dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:background="#FFFFFF"
-                android:text="ハンバーグ弁当　　530円→280円"
-                android:textColor="#0E0E10"
-                android:textSize="25sp"
-                app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView42"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#FFFFFF"
-                android:text="期限 11/07 23:59まで　スタンプ１つ付与"
-                android:textColor="#FF0000"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/button17"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="バーコード表示"
-                android:textColor="#3F51B5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/button18"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="50dp"
-                android:text="Uber Eats　配達"
-                android:textColor="#3F51B5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#770000"
+                android:text="○○コンビニ　　池袋店"
+                android:textColor="#EEEEEE"
+                android:textSize="25sp"
+                android:background="#770000" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="430dp"
+                android:layout_height="305dp"
+                android:src="@drawable/tuna" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:text="ツナマヨおにぎり　　107円→60円"
+                android:textColor="#0E0E10"
+                android:textSize="25sp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="期限 11/07 23:59まで　スタンプ１つ付与"
+                android:textColor="#FF0000"
+                android:background="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:text="バーコード表示"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="○○コンビニ　　池袋店"
+                android:textColor="#EEEEEE"
+                android:textSize="25sp"
+                android:background="#770000" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="424dp"
+                android:layout_height="323dp"
+                android:src="@drawable/bento" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:text="お好み幕の内　　464円→250円"
+                android:textColor="#0E0E10"
+                android:textSize="25sp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="期限 11/07 23:59まで　スタンプ１つ付与"
+                android:textColor="#FF0000"
+                android:background="#FFFFFF"
+                android:textSize="20sp"
+
+                />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:text="バーコード表示"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="○○コンビニ　　東池袋店"
+                android:textColor="#EEEEEE"
+                android:textSize="25sp"
+                android:background="#770000" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:src="@drawable/karubo" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:text="カルボナーラ　　453円→250円"
+                android:textColor="#0E0E10"
+                android:textSize="25sp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="期限 11/07 23:59まで　スタンプ１つ付与"
+                android:textColor="#FF0000"
+                android:background="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:text="バーコード表示"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="○○コンビニ　　十条店"
+                android:textColor="#EEEEEE"
+                android:textSize="25sp"
+                android:background="#770000" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="318dp"
+                android:src="@drawable/hanbagu" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:text="ハンバーグ弁当　　530円→280円"
+                android:textColor="#0E0E10"
+                android:textSize="25sp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="期限 11/07 23:59まで　スタンプ１つ付与"
+                android:textColor="#FF0000"
+                android:background="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:text="バーコード表示"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="○○コンビニ　　赤羽店"
                 android:textColor="#EEEEEE"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:background="#770000" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -372,10 +335,10 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
-                android:background="#FFFFFF"
                 android:text="　シュークリーム　145円→50円"
                 android:textColor="#0E0E10"
                 android:textSize="25sp"
+                android:background="#FFFFFF"
                 app:layout_constraintBottom_toTopOf="@+id/imageView5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -384,29 +347,24 @@
                 android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FFFFFF"
                 android:text="期限 11/07 23:59まで　スタンプ１つ付与"
                 android:textColor="#FF0000"
+                android:background="#FFFFFF"
                 android:textSize="20sp" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
                 android:text="バーコード表示"
                 android:textColor="#3F51B5"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/button19"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="50dp"
-                android:text="Uber Eats　配達"
-                android:textColor="#3F51B5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+
+
+
 
         </LinearLayout>
     </ScrollView>
