@@ -10,30 +10,18 @@
     <string name="menu_home">マイページ</string>
     <string name="home_0">HOME</string>
     <string name="home_1">会員情報</string>
-    <string name="home_1_2">Name : INIAD</string>
+    <string name="home_1_2">Name : </string>
     <string name="home_2">スタンプ数</string>
-    <string name="home_2_2">Total : 39</string>
+    <string name="home_2_2">Total : </string>
     <string name="home_3">My Rank</string>
-    <string name="home_3_2">Rank : Gold</string>
+    <string name="home_3_2">Rank : </string>
     <string name="home_4">Ranking</string>
-    <string name="home_4_2">Ranking : 1056 / 2000</string>
-    <string name="home_5">フレンド数</string>
-    <string name="home_5_2">Total : 20</string>
+    <string name="home_4_2">Ranking : </string>
+    <string name="home_5">紹介数</string>
+    <string name="home_5_2">Total : </string>
     <string name="home_6">会員番号</string>
-    <string name="home_6_2">Number : 0001</string>
-    <string name="home_7">フレンドの集めたスタンプ数 </string>
-    <string name="home_7_2">Total : 200</string>
-
+    <string name="home_6_2">Number : </string>
 
     <string name="menu_gallery">値引き商品一覧</string>
     <string name="menu_slideshow">スタンプ引き換え画面</string>
-    <string name="todo1">TODO</string>
-    <string name="todo2">TODO</string>
-    <string name="todo3">TODO</string>
-    <string name="todo4">TODO</string>
-    <string name="todo5">TODO</string>
-    <string name="todo6">TODO</string>
-    <string name="todo7">TODO</string>
-    <string name="todo8">TODO</string>
-    <string name="todo9">TODO</string>
 </resources>
