@@ -22,7 +22,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.foolo.MainActivity;
 import com.example.foolo.R;
+import com.example.foolo.ui.home.HomeFragment;
+import com.example.foolo.ui.home.HomeViewModel;
 import com.example.foolo.ui.login.LoginViewModel;
 import com.example.foolo.ui.login.LoginViewModelFactory;
 
@@ -71,7 +74,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (loginResult.getSuccess() != null) {
                     updateUiWithUser(loginResult.getSuccess());
                 }
-                setResult(Activity.RESULT_OK);
+                setResult(MainActivity.RESULT_OK);
 
                 //Complete and destroy login activity once successful
                 finish();
