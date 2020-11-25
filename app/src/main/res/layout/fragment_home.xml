@@ -300,10 +300,76 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="40dp"
                     android:layout_marginBottom="0dp"
-                    android:background="#cdc9c3"
-                    android:text="@string/home_4_2"
+                    android:background="#EACE67"
+                    android:text="１位　Mari　　　スタンプ数： 2312"
                     android:textColor="#212922"
                     android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#B1ACA5"
+                    android:text="２位　Masaki　   スタンプ数： 2281"
+                    android:textColor="#212922"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#E37B36"
+                    android:text="３位　Rina　　　スタンプ数： 2143"
+                    android:textColor="#212922"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="160dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#CDC9C2"
+                    android:text="４位　Masato      スタンプ数： 1891"
+                    android:textColor="#212922"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#cdc9c3"
+                    android:text="５位　Rina　　　スタンプ数： 1754"
+                    android:textColor="#212922"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="240dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#8DC3CA"
+                    android:text="あなたの順位　10421位 スタンプ数： 39"
+                    android:textColor="#212922"
+                    android:textSize="20sp" />
+
 
                 <TextView
                     android:id="@+id/textView15"
@@ -313,7 +379,7 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/home_4"
+                    android:text="スタンプ数ランキング（11/16~11/29)"
                     android:textColor="#555555"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toTopOf="@+id/imageView5"
