@@ -353,7 +353,7 @@
                     android:layout_marginTop="200dp"
                     android:layout_marginBottom="0dp"
                     android:background="#cdc9c3"
-                    android:text="５位　Rina　　　スタンプ数： 1754"
+                    android:text="５位　Mai　　　 スタンプ数： 1754"
                     android:textColor="#212922"
                     android:textSize="20sp"/>
 
@@ -393,7 +393,7 @@
                 android:background="#fbf7f0">
 
                 <TextView
-                    android:id="@+id/textView20"
+                    android:id="@+id/textView28"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="40dp"
@@ -401,7 +401,20 @@
                     android:layout_marginTop="40dp"
                     android:layout_marginBottom="0dp"
                     android:background="#cdc9c3"
-                    android:text="@string/home_5_2"
+                    android:text="Yuki  スタンプ数： 142    順位: 1403位"
+                    android:textColor="#212922"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#cdc9c3"
+                    android:text="Kaito スタンプ数： 431    順位: 850位"
                     android:textColor="#212922"
                     android:textSize="20sp" />
 
@@ -413,47 +426,13 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
-                    android:text="@string/home_5"
+                    android:text="フレンドリスト（計7人)"
                     android:textColor="#555555"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toTopOf="@+id/imageView5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#fbf7f0">
-
-                <TextView
-                    android:id="@+id/textView12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="40dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginBottom="0dp"
-                    android:background="#cdc9c3"
-                    android:text="@string/home_7_2"
-                    android:textColor="#212922"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:id="@+id/textView25"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="@string/home_7"
-                    android:textColor="#555555"
-                    android:textSize="20sp"
-                    app:layout_constraintBottom_toTopOf="@+id/imageView5"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
             </FrameLayout>
 
         </LinearLayout>
