@@ -258,11 +258,21 @@
                 android:layout_height="wrap_content"
                 android:background="#fbf7f0">
 
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="350dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="80dp"
+                    android:max="100"
+                    android:progress="70" />
+
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="40dp"
+                    android:layout_marginStart="16dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="40dp"
                     android:layout_marginBottom="0dp"
@@ -270,6 +280,7 @@
                     android:text="@string/home_3_2"
                     android:textColor="#212922"
                     android:textSize="20sp" />
+
 
                 <TextView
                     android:id="@+id/textView14"

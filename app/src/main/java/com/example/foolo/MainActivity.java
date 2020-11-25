@@ -3,6 +3,7 @@ package com.example.foolo;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.ProgressBar;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
