@@ -27,9 +27,4 @@
         android:name="com.example.foolo.ui.login.LoginActivity"
         android:label="activity_login"
         tools:layout="@layout/activity_login" />
-    <activity
-        android:id="@+id/barcode"
-        android:name="com.example.foolo.barcode"
-        android:label="activity_barcode"
-        tools:layout="@layout/activity_barcode" />
 </navigation>
