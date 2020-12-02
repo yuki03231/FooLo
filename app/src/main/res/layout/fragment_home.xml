@@ -228,11 +228,11 @@
                     android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="40dp"
+                    android:layout_marginStart="16dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="40dp"
                     android:layout_marginBottom="0dp"
-                    android:background="#cdc9c3"
+                    android:background="#CCFFFF"
                     android:text="@string/home_2_2"
                     android:textColor="#212922"
                     android:textSize="20sp" />
@@ -246,8 +246,8 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="10dp"
                     android:text="@string/home_2"
-                    android:textColor="#555555"
-                    android:textSize="20sp"
+                    android:textColor="#F00"
+                    android:textSize="25sp"
                     app:layout_constraintBottom_toTopOf="@+id/imageView5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -276,7 +276,7 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginTop="40dp"
                     android:layout_marginBottom="0dp"
-                    android:background="#cdc9c3"
+                    android:background="#CCFFFF"
                     android:text="@string/home_3_2"
                     android:textColor="#212922"
                     android:textSize="20sp" />
@@ -292,7 +292,7 @@
                     android:layout_marginBottom="10dp"
                     android:text="@string/home_3"
                     android:textColor="#555555"
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     app:layout_constraintBottom_toTopOf="@+id/imageView5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
