@@ -262,7 +262,7 @@
                     android:id="@+id/progressBar2"
                     style="?android:attr/progressBarStyleHorizontal"
                     android:layout_width="350dp"
-                    android:layout_height="100dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="80dp"
                     android:max="100"
@@ -296,6 +296,20 @@
                     app:layout_constraintBottom_toTopOf="@+id/imageView5"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="105dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18sp"
+                    android:textColor="#F00"
+                    android:background="#FFFF99"
+                    android:text="次ランクまであと 6 スタンプ " />
+
             </FrameLayout>
 
             <FrameLayout
